@@ -1,0 +1,56 @@
+@font-face {
+    font-family: oswald;
+    src: url(../Oswald-VariableFont_wght.ttf);
+  }
+  h1,h2,h3,h4,h5,p{
+      font-family: oswald;
+      font-weight: 500;
+  }
+.wedding-highlights{
+    background-color: #191919;
+    text-align: center;
+}
+.wedding-highlights h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: oswald;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+.wedding-highlights h1:hover{
+    transition-duration: 0.4s;
+     color: #75dab4;
+   }
+   body{
+       background-color: #191919;
+   }
+   .col-md-3{
+       padding: 10px;
+       text-align: center;
+   }
+   .img-fluid{
+       border-radius: 10px;
+   }
+   .img-fluid:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+   }
+   .back-home{
+    display: inline-block;
+    
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: white;
+    opacity: 0.7;
+    padding-bottom: 20px;
+    font-size: 40px;
+
+  }
+  .back-home:hover{
+color: #75dab4;
+  }
