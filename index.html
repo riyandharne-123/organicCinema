@@ -54,6 +54,30 @@ $(function() {
 </h1>
 </div>
 </section>
+
+
+
+<script>
+  //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+</script>
 <div class=" wedding-section ">
 <div class="content" style="text-align:center;">
 <h1 data-aos="fade-left" style="padding-bottom: 10px;">WEDDINGS</h1>
@@ -113,8 +137,76 @@ $(function() {
 </div>
 </div>
 </div>
-</div>
+<!--engagement section starts here-->
+<div class="engagement-section" style="text-align: center;">
 
+<div class="engagement-cards">
+<div class="container">
+<div class="row">
+<div class="col">
+<div class="card" data-aos="zoom-in-up">
+<div class="card-header">
+<h1>OUR <br> ENGAGEMENTS</h1>
+</div>
+<div class="card-body" >
+<img src="./weddings/engagement-card.jpg" alt="engagement" class="img-fluid">
+</div>
+<div class="card-footer">
+  <a style="text-decoration: none;" href="./view-more-pages/view-weddings.html"><h3 style="padding-bottom: 2px;">View More</h3></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--prepost weddings start here-->
+<div class="pre-post">
+
+<div class="engagement-cards">
+  <div class="container">
+  <div class="row">
+  <div class="col">
+  <div class="card" data-aos="zoom-in-up" style="text-align: center;">
+  <div class="card-header">
+  <h1>PRE POST<br>WEDDINGS</h1>
+  </div>
+  <div class="card-body" >
+  <img src="./weddings/prepost weddings.jpg" alt="engagement" class="img-fluid">
+  </div>
+  <div class="card-footer">
+    <a style="text-decoration: none;" href="./view-more-pages/view-weddings.html"><h3 style="padding-bottom: 2px;">View More</h3></a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+<!--footer-->
+<div class="footer w3-black">
+ 
+  <h3>
+    <a href="#">
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+
+    </a>
+    <a href="#">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+
+    </a>
+    <a href="#">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+    </a>
+    <a href="#">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+
+    </a>
+    <i onclick="topFunction()" id="myBtn"  class="fa fa-sort-asc " aria-hidden="true" ></i>
+</h3>      
+</div>
+</div>
     </div>    
 </body>
 </html>

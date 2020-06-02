@@ -103,3 +103,91 @@
     color: #75dab4;
     text-decoration: none;
   }
+  .engagement-section{
+    height: 100vh;
+    background-color: #191919;
+  }
+  .engagement-section h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: oswald;
+    padding-top: 20px;
+    letter-spacing: 2px;
+  }
+  .engagement-section h1:hover{
+   transition-duration: 0.4s;
+    color: #75dab4;
+  }
+  .engagement-section .card-body .img-fluid{
+    height: 500px;
+    border-radius: 5px;
+  }
+  @media only screen and (max-width: 600px) {
+    .engagement-section .card-body .img-fluid{
+    height: 350px;
+    }
+  }
+  .card-footer h3{
+    color: #fff;
+    font-family: oswald;
+    letter-spacing: 10px;
+    text-decoration: none;
+  }
+  .card-footer h3,a:hover{
+    transition-duration: 0.4s;
+    color: #75dab4;
+    text-decoration: none;
+  }
+  .card:hover{
+    transition-duration: 3s;
+ background-color: #111;
+  }
+  .card-body .img-fluid:hover{
+    
+    transition-duration: 3s;
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+  .pre-post{
+    height: 100vh;
+    background-color: #191919;
+  }
+  .pre-post h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: oswald;
+    padding-top: 20px;
+    letter-spacing: 2px;
+  }
+  .pre-post h1:hover{
+   transition-duration: 0.4s;
+    color: #75dab4;
+  }
+  .pre-post .card-body .img-fluid{
+    height: 500px;
+    border-radius: 5px;
+  }
+  @media only screen and (max-width: 600px) {
+    .pre-post .card-body .img-fluid{
+    height: 350px;
+    }
+  }
+  .footer{
+    height: 50px;
+ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .footer i{
+    color: #fff;
+  }
+  .footer i:hover{
+    color: #75dab4;
+
+  }
+  html{
+    scroll-behavior: smooth;
+  }
