@@ -191,3 +191,80 @@
   html{
     scroll-behavior: smooth;
   }
+  .about-us{
+    background-color: #191919;
+    height: 100vh;
+    text-align: center;
+  }
+  .about-us h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: oswald;
+    padding-top: 2px;
+    letter-spacing: 2px;
+  }
+  .about-us p{
+    color: #fff;
+    font-size: 30px;
+    font-family: oswald;
+    padding-top: 5px;
+    letter-spacing: 2px;
+  }
+  @media only screen and (max-width: 600px) {
+  .about-us p{
+    font-size: 16px;
+  }
+  }
+  .about-us p:hover{
+    color: #75dab4;
+    transition-duration: 1s;
+  }
+  .about-us h1:hover{
+    color: #75dab4;
+    transition-duration: 1s;
+  }
+  .testimonials{
+    background-color: #191919;
+    height: 100vh;
+    text-align: center;
+  }
+  .testimonials h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: oswald;
+    padding-top: 2px;
+    letter-spacing: 2px;
+  }
+
+  .testimonials h1:hover{
+   color: #75dab4;
+    transition-duration: 1s;
+  }
+   .testimonials h5{
+    color: #fff;
+    font-size: 30px;
+    font-family: oswald;
+    padding-top: 2px;
+    letter-spacing: 2px;
+  }
+
+  .testimonials h5:hover{
+   color: #75dab4;
+    transition-duration: 1s;
+  }
+  .testimonials p{
+    color: #fff;
+    font-size: 20px;
+    font-family: oswald;
+    padding-top: 5px;
+    letter-spacing: 2px;
+  }
+  @media only screen and (max-width: 600px) {
+  .testimonials p{
+    font-size: 16px;
+  }
+  }
+   .testimonials p:hover{
+    color: #75dab4;
+    transition-duration: 1s;
+  }
